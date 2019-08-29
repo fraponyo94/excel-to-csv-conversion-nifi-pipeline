@@ -1,7 +1,7 @@
 import sys
 import xlrd 
 import unicodecsv
-import csv
+
 import os
 import glob
 import uuid 
