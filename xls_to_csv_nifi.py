@@ -1,7 +1,6 @@
 import sys
 import xlrd 
 import unicodecsv
-
 import os
 import glob
 import uuid 
@@ -53,10 +52,7 @@ def xlsToCsvConverter(filename):
     except Exception as e:
         raise e
 
-def OutputFileDir(input_dir):
-
-    # Get file path
-   # input_dir = os.path.split(filename)[0]   
+def OutputFileDir(input_dir):    
 
     source_dir = os.path.dirname(input_dir) 
 
